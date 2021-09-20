@@ -1,4 +1,4 @@
-import { Component } from "react";
+// import { Component } from "react";
 import Header from './../../common/header/Header';
 import './Home.css';
 import moviesData from "../../common/moviesData/moviesData";
@@ -9,8 +9,8 @@ import TitlebarImageList from '../../common/ReleaseList/ReleaseList';
 // import { BrowserRouter } from "react-router-dom";
 import React from 'react';
 
-export default class Home extends Component{
-    render(){
+export default function Home(){
+    
 
         return(
 
@@ -37,4 +37,3 @@ export default class Home extends Component{
 
 
     }
-}

@@ -1,16 +1,16 @@
 import './Header.css';
 import logo from './logo.svg';
 // import React from 'react';
-import React, { Component }  from 'react';
+import React from 'react';
 
 // import { Component } from "react";
 
 import Button  from '@material-ui/core/Button';
 
 
-export default class Header extends Component {
+export default function Header() {
     
-    render(){
+   
 
         return(
 
@@ -24,5 +24,5 @@ export default class Header extends Component {
 
 
 
-    }
+    
 }
